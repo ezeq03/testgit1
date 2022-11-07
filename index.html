@@ -200,8 +200,8 @@
               </div>
               <div class="inputs d-flex">
                   <div class="w-100">
-                      <label for="cantidad" class="form-label">Cantidad</label>
-                      <input type="number" min="1" id="cantidad" value=" " class="form-control" required>
+                      <label for="cantidadTickets" class="form-label">Cantidad</label>
+                      <input type="number" min="1" id="cantidadTickets" value=" " class="form-control" required>
                   </div>
                   <div class="w-100">
                       <label for="categoria" class="form-label">Categoría</label>
@@ -219,8 +219,8 @@
               </div>
               
               <div class="buttons d-flex gap-3">
-                  <button id="reset" class="btn w-100 btn btn-success" type="button" onclick="resetCalc()">Borrar</button>
-                  <button id="calc" class="btn btn-success btn w-100" type="button" onclick="initCalc()">Resumen</button>
+                  <button class="btn w-100 btn btn-success" type="reset" onclick="resetCalc()">Borrar</button>
+                  <button class="btn w-100 btn btn-success" type="button" onclick="calc()">Resumen</button>
               </div>
           </form>
       </div>
